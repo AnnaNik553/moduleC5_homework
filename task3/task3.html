@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .message {
+            color: red;
+            opacity: 0;
+        }
+
+        .img {
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    Введите количество картинок <input class="input" type="number" required min="1" max="10">
+    <button class="btn">Показать картинки</button>
+    <p class="message">число вне диапазона от 1 до 10</p>
+    <div class="img__box"></div>
+
+    <script src="task3.js"></script>
+</body>
+
+</html>
